@@ -1,17 +1,23 @@
 # Evaluation goal
 
-Evaluate whether a technology blog post rewards careful reading and gives technical readers durable understanding they can transfer to other work. Score the article itself, not the reputation of its author or publisher.
+Evaluate whether this item delivers high-signal, actionable frontier intelligence for an AI & Systems Engineer focused on LLMs, Agent architectures,
+Context/Harness Engineering, AI Infrastructure (inference, kernels, quantization), and high-impact open-source tools.
 
 # Scoring rubric
 
-- **9-10: Exceptional.** Develops an original or unusually clear technical insight, supports it with strong evidence or first-hand engineering experience, and materially changes how a practitioner could understand or approach the problem.
-- **7-8: High value.** Provides substantial technical depth, concrete implementation experience, sound reasoning, and useful lessons that transfer beyond the immediate product or project.
-- **5-6: Useful.** Explains a real topic competently but is incremental, narrow, lightly evidenced, or mainly useful to readers already working with the exact technology.
-- **3-4: Shallow.** Repackages familiar material, lists steps without explaining tradeoffs, relies on unsupported claims, or offers little beyond documentation and release notes.
-- **0-2: Noise.** Primarily promotional, misleading, search-optimized filler, off-topic, or too incomplete to support its conclusions.
+- **9-10: Paradigm-Shifting / Must-Read.** New SOTA model weights/architectures, breakthrough engineering methods (e.g., novel context compression, agent
+harnesses, inference speedups with benchmarks), or rapidly surging open-source AI repositories solving a real bottleneck.
+- **7.5-8.5: High Technical Signal.** Deep engineering postmortems, substantive benchmarks comparing methods, major releases of core AI stack (vLLM,
+SGLang, Claude Code, MCP), or papers with reproducible code and clear architectural insights.
+- **5-7: Moderate / Incremental.** Routine library updates, general industry pricing discussions without technical depth, or standard tutorials.
+- **0-4: Noise & Off-Topic (STRICT REJECT).** Consumer hardware rumors (e.g., iPhone/MacBook leaks, teardowns), corporate debt/financing gossip, general
+cybersecurity advisories unrelated to AI, PR fluff, or second-hand media summaries lacking technical methodology.
 
 # Evaluation guidance
 
-Consider the clarity of the motivating problem, originality of the central insight, technical depth, quality of evidence, honesty about tradeoffs and limitations, practical specificity, and long-term usefulness. Distinguish measured results from vendor claims and author opinion. Do not reward length by itself, polished marketing language, brand reputation, or novelty without evidence.
+1. **Penalize Consumer & Finance Gossip**: Any item about consumer phones/laptops, corporate fundraising/debt, or general IT news MUST be scored <= 3.0
+so it never passes the filter.
+2. **Reward Concrete Engineering**: Prioritize items that explain *how* a system works, provide code/benchmarks, or introduce a novel developer
+tool/workflow.
 
 Use three to five specific topic tags.
